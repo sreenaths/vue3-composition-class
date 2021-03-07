@@ -21,22 +21,22 @@ class Counter {
     this.valueInternal--;
   }
 
-  someOtherFunction1() {
+  someOtherMathod1() {
     console.log(this.valueInternal);
   }
-  someOtherFunction2() {
+  someOtherMathod2() {
     console.log(this.valueInternal);
   }
-  someOtherFunction3() {
+  someOtherMathod3() {
     console.log(this.valueInternal);
   }
-  someOtherFunction4() {
+  someOtherMathod4() {
     console.log(this.valueInternal);
   }
-  someOtherFunction5() {
+  someOtherMathod5() {
     console.log(this.valueInternal);
   }
-  someOtherFunction6() {
+  someOtherMathod6() {
     console.log(this.valueInternal);
   }
 }

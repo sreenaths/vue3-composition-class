@@ -14,22 +14,22 @@ const getInstance = props => {
       valueInternal.value--;
     },
 
-    someOtherFunction1() {
+    someOtherMathod1() {
       console.log(valueInternal.value);
     },
-    someOtherFunction2() {
+    someOtherMathod2() {
       console.log(valueInternal.value);
     },
-    someOtherFunction3() {
+    someOtherMathod3() {
       console.log(valueInternal.value);
     },
-    someOtherFunction4() {
+    someOtherMathod4() {
       console.log(valueInternal.value);
     },
-    someOtherFunction5() {
+    someOtherMathod5() {
       console.log(valueInternal.value);
     },
-    someOtherFunction6() {
+    someOtherMathod6() {
       console.log(valueInternal.value);
     }
   };
