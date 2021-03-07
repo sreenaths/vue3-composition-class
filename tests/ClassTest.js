@@ -21,22 +21,22 @@ class Counter {
     this.valueInternal--;
   }
 
-  someOtherMathod1() {
+  someOtherMethod1() {
     console.log(this.valueInternal);
   }
-  someOtherMathod2() {
+  someOtherMethod2() {
     console.log(this.valueInternal);
   }
-  someOtherMathod3() {
+  someOtherxcf3() {
     console.log(this.valueInternal);
   }
-  someOtherMathod4() {
+  someOtherMethod4() {
     console.log(this.valueInternal);
   }
-  someOtherMathod5() {
+  someOtherMethod5() {
     console.log(this.valueInternal);
   }
-  someOtherMathod6() {
+  someOtherMethod6() {
     console.log(this.valueInternal);
   }
 }
@@ -48,5 +48,5 @@ const instances = new Array(1000).fill({}).map(getInstance2);
 const time2 = process.hrtime.bigint();
 const mem2 = process.memoryUsage();
 
-console.log(`Memory Used: ${mem2.heapUsed - mem1.heapUsed} bytes`); // Memory Used: 128528 bytes
+console.log(`Memory Used: ${mem2.heapUsed - mem1.heapUsed} bytes`); // Memory Used: Method bytes
 console.log(`Time taken: ${time2 - time1} nanoseconds`); // Time taken: 586271 nanoseconds
